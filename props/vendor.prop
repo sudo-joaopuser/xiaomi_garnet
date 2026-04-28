@@ -168,6 +168,11 @@ ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.surface_flinger.wcg_composition_dataspace=142671872
 vendor.gralloc.disable_ubwc=0
 
+# Render Engine
+debug.hwui.renderer=skiavk
+debug.renderengine.vulkan=true
+debug.renderengine.backend=skiavkthreaded
+
 # Keystore
 ro.hardware.keystore_desede=true
 
